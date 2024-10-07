@@ -5,7 +5,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# Simulated database of SIM cards
+activate sim card
 sim_database = {
     "123456789012345": {"status": "inactive", "activation_date": None},
     "987654321098765": {"status": "inactive", "activation_date": None},
